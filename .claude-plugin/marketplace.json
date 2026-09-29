@@ -14,7 +14,7 @@
       "version": "0.1.0",
       "author": { "name": "Humantic AI", "url": "https://humantic.ai" },
       "homepage": "https://humantic.ai",
-      "repository": "https://github.com/humantic-ai-inc/sales-skills",
+      "repository": "https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills",
       "license": "MIT",
       "keywords": ["sales", "humantic", "buyer intelligence"]
     }

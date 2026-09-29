@@ -33,13 +33,13 @@ Paste this into **Claude** or **ChatGPT** with web access turned on. In Claude, 
 Load the Humantic AI sales skills and use them for the rest of this
 conversation. Read all seven files:
 
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/buyer-read/SKILL.md
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/pursuit-plan/SKILL.md
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/prospecting/SKILL.md
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/sales-email/SKILL.md
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/buying-committee/SKILL.md
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/expansion-play/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/buyer-read/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/meeting-prep/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/pursuit-plan/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/prospecting/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/sales-email/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/buying-committee/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/expansion-play/SKILL.md
 
 From now on, when what I ask matches one of them, follow that skill and
 tell me in one line which one you used. List the seven names, then ask
@@ -52,7 +52,7 @@ me what I am working on.
 
 ```text
 Install the Humantic AI sales skills from
-https://github.com/humantic-ai-inc/sales-skills
+https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills
 
 Check that repo, add it as a plugin marketplace, and install the
 humantic-sales-skills plugin so all seven skills are available to me.
@@ -65,7 +65,7 @@ Paste this into whichever assistant you use. It reads our instructions and gives
 
 ```text
 Read
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/INSTALL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/INSTALL.md
 and walk me through installing all seven Humantic AI sales skills in
 this assistant. Ask me anything you need, give me one step at a time,
 and wait for me to say done before the next one.
@@ -79,7 +79,7 @@ Some assistants can build a skill from what you paste in.
 
 ```text
 Create a skill called meeting-prep. Use exactly the content of
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/meeting-prep/SKILL.md
 as its instructions, and keep its name and description as written
 there. Do not summarise or shorten it.
 ```
@@ -92,7 +92,7 @@ Repeat for the other six: `buyer-read`, `pursuit-plan`, `prospecting`, `sales-em
 Save these seven Humantic AI sales skills into my OneDrive under
 Documents / Cowork / skills, one folder per skill, each folder holding
 its SKILL.md exactly as written. The files are at
-https://github.com/humantic-ai-inc/sales-skills/tree/main/skills
+https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/tree/main/skills
 ```
 
 If it cannot reach GitHub, download `dist/all-skills.zip`, unpack it, and drag the seven folders into that OneDrive folder yourself. Either way, Cowork picks them up at the start of your next session.
@@ -109,7 +109,7 @@ Paste this into Claude and it takes care of the rest:
 
 ```text
 Install the Humantic AI sales skills from
-https://github.com/humantic-ai-inc/sales-skills
+https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills
 
 Check that repo, add it as a plugin marketplace, and install the
 humantic-sales-skills plugin so all seven skills are available to me.
@@ -126,7 +126,7 @@ Claude reads the repo, adds it, and installs all seven. If you are in a version 
 1. In the left sidebar, open **Customize**.
 2. Open the **Plugins** tab.
 3. Select **Add**, then **Add marketplace**.
-4. Type `humantic-ai-inc/sales-skills` and confirm.
+4. Type `humantic-ai-inc/HumanticAI-Sales-Skills` and confirm.
 5. Find **Humantic Sales Skills** in the list and select **Add**.
 
 That is it. No GitHub account and no sign-in: this repo is public, and Claude reads it anonymously.
@@ -134,7 +134,7 @@ That is it. No GitHub account and no sign-in: this repo is public, and Claude re
 **In Claude Code**, the same thing in two lines:
 
 ```text
-/plugin marketplace add humantic-ai-inc/sales-skills
+/plugin marketplace add humantic-ai-inc/HumanticAI-Sales-Skills
 /plugin install humantic-sales-skills@humantic-ai
 ```
 
@@ -234,7 +234,7 @@ Good for trying one skill, or for any assistant not listed above. It lasts for t
 
 ```text
 Read
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/skills/meeting-prep/SKILL.md
 and follow those instructions for the rest of this conversation.
 Reply with one line to confirm, then ask me for what you need.
 ```

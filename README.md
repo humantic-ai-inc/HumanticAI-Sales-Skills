@@ -28,14 +28,14 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 
 ```text
 Install the Humantic AI sales skills from
-https://github.com/humantic-ai-inc/sales-skills
+https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills
 
 Check that repo, add it as a plugin marketplace, and install the
 humantic-sales-skills plugin so all seven skills are available to me.
 Then list the seven skill names.
 ```
 
-Prefer the menu? Open **Customize**, **Plugins**, **Add**, **Add marketplace**, and enter `humantic-ai-inc/sales-skills`.
+Prefer the menu? Open **Customize**, **Plugins**, **Add**, **Add marketplace**, and enter `humantic-ai-inc/HumanticAI-Sales-Skills`.
 
 That one step installs all seven. **ChatGPT**, **Gemini** and **Microsoft Copilot Cowork** take skills one at a time: download [`dist/all-skills.zip`](dist/all-skills.zip), or a single skill from `dist/`, and upload in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
 
@@ -44,7 +44,7 @@ That one step installs all seven. **ChatGPT**, **Gemini** and **Microsoft Copilo
 ```text
 Load the Humantic AI sales skills and use them for the rest of this
 conversation. Read all seven files listed at
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/INSTALL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/INSTALL.md
 under "Use all seven right now", follow the matching skill whenever
 what I ask matches one, and tell me which one you used. List the seven
 names, then ask me what I am working on.
@@ -54,7 +54,7 @@ names, then ask me what I am working on.
 
 ```text
 Read
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/INSTALL.md
+https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/INSTALL.md
 and walk me through installing all seven Humantic AI sales skills in
 this assistant. One step at a time, and wait for me to say done.
 ```
