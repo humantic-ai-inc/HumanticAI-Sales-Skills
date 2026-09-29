@@ -21,6 +21,75 @@ The skills work without Humantic AI connected, and they get much better with it.
 
 ---
 
+## Let your assistant do it: prompts you can paste
+
+Three prompts. The first works anywhere and takes ten seconds. The other two ask the assistant to do the installing for you.
+
+### 1. Use all seven right now, in this chat
+
+Paste this into **Claude** or **ChatGPT** with web access turned on. In Claude, select **+** in the chat box and turn on **Web search** first.
+
+```text
+Load the Humantic AI sales skills and use them for the rest of this
+conversation. Read all seven files:
+
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/buyer-read/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/pursuit-plan/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/prospecting/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/sales-email/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/buying-committee/SKILL.md
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/expansion-play/SKILL.md
+
+From now on, when what I ask matches one of them, follow that skill and
+tell me in one line which one you used. List the seven names, then ask
+me what I am working on.
+```
+
+**This lasts for one conversation.** It is the fastest way to see what the skills do. Install them properly, using one of the sections above, once you want them every day.
+
+### 2. Have your assistant walk you through the real install
+
+Paste this into whichever assistant you use. It reads our instructions and gives you only the steps that apply to you.
+
+```text
+Read
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/INSTALL.md
+and walk me through installing all seven Humantic AI sales skills in
+this assistant. Ask me anything you need, give me one step at a time,
+and wait for me to say done before the next one.
+```
+
+### 3. Ask your assistant to create the skills for you
+
+Some assistants can build a skill from what you paste in.
+
+**ChatGPT** can, on Business, Enterprise, Healthcare and Edu plans. Open **Plugins**, the **Skills** tab, then **Create**, then **Create with chat**, and paste:
+
+```text
+Create a skill called meeting-prep. Use exactly the content of
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
+as its instructions, and keep its name and description as written
+there. Do not summarise or shorten it.
+```
+
+Repeat for the other six: `buyer-read`, `pursuit-plan`, `prospecting`, `sales-email`, `buying-committee`, `expansion-play`. If ChatGPT cannot open the link, open the file yourself, copy everything, and paste it in place of the link.
+
+**Copilot Cowork** can save files for you. Ask it:
+
+```text
+Save these seven Humantic AI sales skills into my OneDrive under
+Documents / Cowork / skills, one folder per skill, each folder holding
+its SKILL.md exactly as written. The files are at
+https://github.com/humantic-ai-inc/sales-skills/tree/main/skills
+```
+
+If it cannot reach GitHub, download `dist/all-skills.zip`, unpack it, and drag the seven folders into that OneDrive folder yourself. Either way, Cowork picks them up at the start of your next session.
+
+**Gemini** cannot read files from GitHub, so upload them as described above.
+
+---
+
 ## Claude
 
 ### All seven at once (recommended)

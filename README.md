@@ -32,13 +32,24 @@ humantic-ai-inc/sales-skills
 
 That one step installs all seven. **ChatGPT**, **Gemini** and **Microsoft Copilot Cowork** take skills one at a time: download [`dist/all-skills.zip`](dist/all-skills.zip), or a single skill from `dist/`, and upload in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
 
-**Just trying one?** Paste this into Claude or ChatGPT, with web access on:
+**Just want to try them?** Paste this into Claude or ChatGPT, with web access on, and all seven work for that conversation:
+
+```text
+Load the Humantic AI sales skills and use them for the rest of this
+conversation. Read all seven files listed at
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/INSTALL.md
+under "Use all seven right now", follow the matching skill whenever
+what I ask matches one, and tell me which one you used. List the seven
+names, then ask me what I am working on.
+```
+
+**Want your assistant to install them for you?** Paste this instead:
 
 ```text
 Read
-https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
-and follow those instructions for the rest of this conversation.
-Reply with one line to confirm, then ask me for what you need.
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/INSTALL.md
+and walk me through installing all seven Humantic AI sales skills in
+this assistant. One step at a time, and wait for me to say done.
 ```
 
 First time with Humantic AI in your assistant? Connect it first with [SETUP.md](SETUP.md).
