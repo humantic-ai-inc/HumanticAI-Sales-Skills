@@ -1,6 +1,11 @@
 {
   "name": "humantic-sales-skills",
+  "displayName": "Sales Skills",
   "version": "0.1.0",
-  "description": "Seven sales skills that use Humantic AI's personality and account intelligence.",
-  "author": { "name": "Humantic AI" }
+  "description": "Seven sales skills from Humantic AI: buyer read, meeting prep, pursuit plan, prospecting, sales email, buying committee and expansion play.",
+  "author": { "name": "Humantic AI", "url": "https://humantic.ai" },
+  "homepage": "https://humantic.ai",
+  "repository": "https://github.com/humantic-ai-inc/sales-skills",
+  "license": "MIT",
+  "keywords": ["sales", "humantic", "buyer intelligence", "meeting prep", "prospecting"]
 }
