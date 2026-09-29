@@ -1,6 +1,8 @@
-# Setup
+# Setup: connect Humantic AI to your assistant
 
-Connect Humantic AI to your assistant once, then every prompt in this library works.
+**This page connects Humantic AI itself.** To install the seven sales skills, see [INSTALL.md](INSTALL.md). Do this page first, then that one.
+
+Connect Humantic AI to your assistant once, then every skill and every prompt in this library works.
 
 You will need your Humantic MCP endpoint and credentials from your Humantic account. If you do not have them, ask your Humantic contact or your internal admin.
 

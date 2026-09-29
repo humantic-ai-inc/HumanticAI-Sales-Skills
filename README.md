@@ -20,7 +20,28 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 | [buying-committee](skills/buying-committee/) | Maps the people who decide and how to move them as a group |
 | [expansion-play](skills/expansion-play/) | What an existing customer should buy next, and when to ask |
 
-**Install in Claude:** add this repo as a plugin marketplace, or upload any skill folder under Settings, Skills. **ChatGPT and Microsoft Copilot:** upload the skill folders as skills, or see the admin guide from your Humantic contact.
+### Install them
+
+**Full steps for every assistant are in [INSTALL.md](INSTALL.md).** The short version:
+
+**Claude**, all seven at once: open **Customize**, **Plugins**, **Add**, **Add marketplace**, and enter:
+
+```text
+humantic-ai-inc/sales-skills
+```
+
+**ChatGPT**, **Gemini** and **Microsoft Copilot Cowork**: download a skill from `dist/` and upload it in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
+
+**Just trying one?** Paste this into Claude or ChatGPT, with web access on:
+
+```text
+Read
+https://raw.githubusercontent.com/humantic-ai-inc/sales-skills/main/skills/meeting-prep/SKILL.md
+and follow those instructions for the rest of this conversation.
+Reply with one line to confirm, then ask me for what you need.
+```
+
+First time with Humantic AI in your assistant? Connect it first with [SETUP.md](SETUP.md).
 
 ## Prompts
 
@@ -48,6 +69,8 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 | [08 - For sales managers](08-for-sales-managers.md) | 42 to 46 | Coaching, deal review and team preparation |
 | [09 - Combine Humantic with your other tools](09-connected-tools.md) | 47 to 51 | Calendar, mail, CRM, meeting notes and files, chained with Humantic |
 | [10 - Keep the data honest](10-keep-data-honest.md) | 52 to 55 | Feedback prompts that improve what everyone gets back |
+| [INSTALL.md](INSTALL.md) | - | How to install the skills in Claude, ChatGPT, Gemini and Microsoft Copilot |
+| [SETUP.md](SETUP.md) | - | How to connect Humantic AI to your assistant |
 | [CONNECTORS.md](CONNECTORS.md) | - | What each connected tool adds, and how to supply context by hand |
 | [TOOLS.md](TOOLS.md) | - | Plain-language reference for what sits behind these prompts |
 
