@@ -23,7 +23,7 @@ The skills work without Humantic AI connected, and they get much better with it.
 
 ## Let your assistant do it: prompts you can paste
 
-Three prompts. The first works anywhere and takes ten seconds. The other two ask the assistant to do the installing for you.
+Four prompts. The first works anywhere and takes ten seconds. The rest ask the assistant to do the installing for you.
 
 ### 1. Use all seven right now, in this chat
 
@@ -48,7 +48,18 @@ me what I am working on.
 
 **This lasts for one conversation.** It is the fastest way to see what the skills do. Install them properly, using one of the sections above, once you want them every day.
 
-### 2. Have your assistant walk you through the real install
+### 2. Install everything in Claude
+
+```text
+Install the Humantic AI sales skills from
+https://github.com/humantic-ai-inc/sales-skills
+
+Check that repo, add it as a plugin marketplace, and install the
+humantic-sales-skills plugin so all seven skills are available to me.
+Then list the seven skill names.
+```
+
+### 3. Have your assistant walk you through the real install
 
 Paste this into whichever assistant you use. It reads our instructions and gives you only the steps that apply to you.
 
@@ -60,7 +71,7 @@ this assistant. Ask me anything you need, give me one step at a time,
 and wait for me to say done before the next one.
 ```
 
-### 3. Ask your assistant to create the skills for you
+### 4. Ask your assistant to create the skills for you
 
 Some assistants can build a skill from what you paste in.
 
@@ -92,7 +103,25 @@ If it cannot reach GitHub, download `dist/all-skills.zip`, unpack it, and drag t
 
 ## Claude
 
-### All seven at once (recommended)
+### Ask Claude to install them (easiest)
+
+Paste this into Claude and it takes care of the rest:
+
+```text
+Install the Humantic AI sales skills from
+https://github.com/humantic-ai-inc/sales-skills
+
+Check that repo, add it as a plugin marketplace, and install the
+humantic-sales-skills plugin so all seven skills are available to me.
+Then list the seven skill names and tell me one thing each is good for.
+
+If you cannot install it yourself here, say so and walk me through
+doing it, one step at a time.
+```
+
+Claude reads the repo, adds it, and installs all seven. If you are in a version of Claude that cannot install things for you, it will say so and talk you through the menu steps below instead.
+
+### Add it yourself, from the menu
 
 1. In the left sidebar, open **Customize**.
 2. Open the **Plugins** tab.

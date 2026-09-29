@@ -24,11 +24,18 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 
 **Full steps for every assistant are in [INSTALL.md](INSTALL.md).** The short version:
 
-**Claude**, all seven at once: open **Customize**, **Plugins**, **Add**, **Add marketplace**, and enter:
+**Claude**, all seven at once. Paste this into a chat:
 
 ```text
-humantic-ai-inc/sales-skills
+Install the Humantic AI sales skills from
+https://github.com/humantic-ai-inc/sales-skills
+
+Check that repo, add it as a plugin marketplace, and install the
+humantic-sales-skills plugin so all seven skills are available to me.
+Then list the seven skill names.
 ```
+
+Prefer the menu? Open **Customize**, **Plugins**, **Add**, **Add marketplace**, and enter `humantic-ai-inc/sales-skills`.
 
 That one step installs all seven. **ChatGPT**, **Gemini** and **Microsoft Copilot Cowork** take skills one at a time: download [`dist/all-skills.zip`](dist/all-skills.zip), or a single skill from `dist/`, and upload in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
 
