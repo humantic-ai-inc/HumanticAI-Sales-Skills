@@ -9,6 +9,8 @@ Pick your assistant, follow the steps, done in a few minutes. No terminal, no Gi
 
 The skills work without Humantic AI connected, and they get much better with it. Steps checked in September 2026. If a screen does not match, tell your Humantic AI contact.
 
+**Want the whole set in one go?** Claude is the only assistant with a true one-step install for all seven, and it takes about thirty seconds. ChatGPT and Gemini take the skills one file at a time, so [`dist/all-skills.zip`](dist/all-skills.zip) holds all seven in one download. For Microsoft Copilot, one admin can deploy the set to everyone: ask your Humantic AI contact.
+
 | Assistant | The short version |
 | :--- | :--- |
 | [Claude](#claude) | Add this repo once and get all seven skills |
@@ -37,6 +39,8 @@ That is it. No GitHub account and no sign-in: this repo is public, and Claude re
 /plugin marketplace add humantic-ai-inc/sales-skills
 /plugin install humantic-sales-skills@humantic-ai
 ```
+
+This is the whole set, installed once: all seven skills arrive together, and there is nothing to keep in sync by hand.
 
 ### One skill at a time
 
@@ -67,6 +71,8 @@ Nothing signs you up for automatic updates, and nothing needs a GitHub login.
 
 Skills are available on ChatGPT **Business, Enterprise, Healthcare and Edu**. On a personal Plus or Pro account, use the Project method below instead.
 
+ChatGPT takes one skill at a time, so repeat step 4 for each. [`dist/all-skills.zip`](dist/all-skills.zip) gives you all seven in one download to unpack first.
+
 1. Download the skills you want from [`dist/claude/`](dist/claude) (the same files work here): open a file and select **Download raw file**.
 2. In ChatGPT, open **Plugins** in the sidebar.
 3. In the Plugin Directory, open the **Skills** tab.
@@ -91,6 +97,8 @@ Skills in Gemini are for **personal Google accounts** today. Work and school acc
 4. Open the skill and select **More**, then **Activate**.
 5. In a chat, type `/` and pick the skill, or simply describe what you need.
 
+Gemini takes one skill at a time. [`dist/all-skills.zip`](dist/all-skills.zip) gives you all seven in one download to unpack first.
+
 **On a work or school account**, make a Gem: open **Gems** in the sidebar, select **New Gem**, give it the skill's name, and paste the text of the skill from the `skills/` folder into **Instructions**. Save it, then start a chat with that Gem.
 
 Gemini cannot read files straight from GitHub, so the download step is required.
@@ -109,6 +117,8 @@ You need a Microsoft 365 Copilot licence.
 4. Select the arrow next to **Add**, then **Upload skill**, and choose the file.
 
 Cowork picks the right skill up automatically when what you ask matches it.
+
+**All seven at once:** download [`dist/all-skills.zip`](dist/all-skills.zip), unpack it, and drop the seven folders into your OneDrive under `Documents / Cowork / skills`. Cowork picks them up at the start of your next session.
 
 ### For everyone, through your admin
 

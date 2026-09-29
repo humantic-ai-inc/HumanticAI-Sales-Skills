@@ -30,7 +30,7 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 humantic-ai-inc/sales-skills
 ```
 
-**ChatGPT**, **Gemini** and **Microsoft Copilot Cowork**: download a skill from `dist/` and upload it in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
+That one step installs all seven. **ChatGPT**, **Gemini** and **Microsoft Copilot Cowork** take skills one at a time: download [`dist/all-skills.zip`](dist/all-skills.zip), or a single skill from `dist/`, and upload in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
 
 **Just trying one?** Paste this into Claude or ChatGPT, with web access on:
 
