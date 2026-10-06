@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "humantic-sales-skills",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Seven sales skills from Humantic AI: buyer read, meeting prep, pursuit plan, prospecting, sales email, buying committee and expansion play.",
   "author": { "name": "Humantic AI", "url": "https://humantic.ai" },
   "homepage": "https://humantic.ai",
