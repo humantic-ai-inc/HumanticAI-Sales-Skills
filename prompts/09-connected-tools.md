@@ -2,9 +2,9 @@
 
 Humantic knows the person. Your own tools know the deal. These prompts use both.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
-> **These need at least one other tool connected** to your assistant: calendar, mail, CRM, meeting notes or a document store. Which ones you have depends on your organisation. See [CONNECTORS.md](CONNECTORS.md).
+> **These need at least one other tool connected** to your assistant: calendar, mail, CRM, meeting notes or a document store. Which ones you have depends on your organisation. See [the connectors page](../docs/connectors.md).
 >
 > Each prompt still degrades gracefully. If a connector is missing, the assistant should tell you what would help and offer to take it as a paste, then answer with whatever it has.
 

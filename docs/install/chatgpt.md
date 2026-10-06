@@ -2,7 +2,7 @@
 
 How you install depends on your plan and on who you are.
 
-[Back to all assistants](INSTALL.md)
+[Back to all assistants](../../INSTALL.md)
 
 | You are | Best route | You get |
 | :--- | :--- | :--- |
@@ -63,7 +63,7 @@ codex plugin marketplace upgrade
 
 Skills are on ChatGPT **Business, Enterprise, Healthcare and Edu**. ChatGPT takes one skill per upload.
 
-1. Download the skills you want from [dist/gemini-copilot](dist/gemini-copilot). Open each file, then select **Download raw file**. All seven are also in [all-skills.zip](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/all-skills.zip).
+1. Download the skills you want from [dist/one-skill/chatgpt-copilot-gemini](../../dist/one-skill/chatgpt-copilot-gemini). Open each file, then select **Download raw file**. All seven are also in [all-skills.zip](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/all-skills.zip).
 2. In ChatGPT, open **Plugins** in the sidebar.
 3. Open the **Skills** tab.
 4. Select **Create**, then **Upload from your computer**, and choose one file.
@@ -71,7 +71,7 @@ Skills are on ChatGPT **Business, Enterprise, Healthcare and Edu**. ChatGPT take
 
 ChatGPT scans each upload before you can use it. Then just ask for what you want, and ChatGPT picks the right skill.
 
-If ChatGPT rejects a file, try the same skill from [dist/claude](dist/claude), which keeps the skill inside its own folder.
+If ChatGPT rejects a file, try the same skill from [dist/one-skill/claude](../../dist/one-skill/claude), which keeps the skill inside its own folder.
 
 ---
 
@@ -100,13 +100,13 @@ tell me in one line which one you used. List the seven names, then ask
 me what I am working on.
 ```
 
-This lasts for that chat only. If ChatGPT says it cannot open the links, open a skill in the [skills](skills) folder, copy all of it, and paste it in instead.
+This lasts for that chat only. If ChatGPT says it cannot open the links, open a skill in the [skills](../../skills) folder, copy all of it, and paste it in instead.
 
 ### In a Project, so it lasts
 
 1. Create a Project, for example "Meeting prep".
 2. Open its instructions.
-3. Paste in the full text of one skill from the [skills](skills) folder.
+3. Paste in the full text of one skill from the [skills](../../skills) folder.
 
 Every chat in that Project now follows the skill.
 
@@ -114,5 +114,5 @@ Every chat in that Project now follows the skill.
 
 ## Next
 
-- Connect Humantic AI to ChatGPT so the skills can use it: [SETUP.md](SETUP.md).
+- Connect Humantic AI to ChatGPT so the skills can use it: [the setup guide](../setup-humantic.md).
 - Check it worked: ask "prep me for my meeting with [a colleague's LinkedIn URL] tomorrow". You should get the meeting outcome, a read on the person, questions to ask and the ask. A generic answer means the skill did not load.

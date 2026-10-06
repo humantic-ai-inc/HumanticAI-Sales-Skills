@@ -2,7 +2,7 @@
 
 You do not need this to use the library. It is here for people who want to know what is actually running, and for anyone writing their own prompts.
 
-[Back to index](README.md)
+[Back to the prompt index](../prompts/README.md)
 
 Humantic exposes three families of capability through the MCP server.
 

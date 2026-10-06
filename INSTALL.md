@@ -4,15 +4,15 @@ Pick your assistant. Each page has a copy-paste route and step-by-step instructi
 
 | Assistant | Install guide | All seven in one go? |
 | :--- | :--- | :--- |
-| **Claude** | [INSTALL-CLAUDE.md](INSTALL-CLAUDE.md) | Yes. Paste one prompt, or add the repo from the menu |
-| **ChatGPT** | [INSTALL-CHATGPT.md](INSTALL-CHATGPT.md) | Yes, through your workspace admin or the desktop app. One at a time on the web |
-| **Microsoft Copilot** | [INSTALL-COPILOT.md](INSTALL-COPILOT.md) | Yes. Upload one plugin file in Cowork, or your admin deploys it |
+| **Claude** | [Claude guide](docs/install/claude.md) | Yes. Paste one prompt, or add the repo from the menu |
+| **ChatGPT** | [ChatGPT guide](docs/install/chatgpt.md) | Yes, through your workspace admin or the desktop app. One at a time on the web |
+| **Microsoft Copilot** | [Copilot guide](docs/install/copilot.md) | Yes. Upload one plugin file in Cowork, or your admin deploys it |
 | **Gemini** | [Below](#gemini) | One at a time |
 | **Anything else** | [Below](#any-assistant-paste-into-a-chat) | For one chat, no install |
 
 **Two separate things, in this order:**
 
-1. **Connect Humantic AI** to your assistant, once. That is [SETUP.md](SETUP.md).
+1. **Connect Humantic AI** to your assistant, once. That is [the setup guide](docs/setup-humantic.md).
 2. **Install the skills**, using the guide for your assistant.
 
 The skills work without Humantic AI connected. They get much better with it.
@@ -21,22 +21,18 @@ Steps checked in October 2026. These assistants change their menus often. If a s
 
 ---
 
-## What is in the repo
+## Which download to use
 
-| File | What it is for |
+| File | Use it for |
 | :--- | :--- |
-| `.claude-plugin/` | The Claude plugin. Claude, Claude Code and GitHub Copilot read it |
-| `plugin.json` and `.agents/plugins/` | The OpenAI plugin. ChatGPT and Codex read it |
-| `m365/cowork/` | The Microsoft Copilot Cowork plugin manifest and icons |
-| `skills/` | The seven skills themselves |
-| `dist/humantic-sales-skills-copilot.zip` | Ready-made Copilot Cowork plugin, all seven |
-| `dist/humantic-sales-skills-claude.zip` | Ready-made Claude plugin, for an organisation upload |
-| `dist/humantic-sales-skills-chatgpt.zip` | Ready-made OpenAI plugin, all seven |
+| `dist/humantic-sales-skills-copilot.zip` | Microsoft Copilot Cowork: all seven in one upload |
+| `dist/humantic-sales-skills-claude.zip` | Claude, uploaded by an Owner for the whole organisation |
+| `dist/humantic-sales-skills-chatgpt.zip` | ChatGPT and Codex: all seven as one plugin |
 | `dist/all-skills.zip` | All seven skill folders in one download |
-| `dist/claude/` | One skill per file, with the skill inside its folder |
-| `dist/gemini-copilot/` | One skill per file, with SKILL.md at the top |
+| `dist/one-skill/claude/` | One skill at a time in Claude |
+| `dist/one-skill/chatgpt-copilot-gemini/` | One skill at a time in ChatGPT, Copilot or Gemini |
 
-Everything in `dist/` is built from `skills/` by `scripts/build-packages.py`. Run it after changing a skill.
+Everything in `dist/` is built from `skills/` by `scripts/build-packages.py`. See [CONTRIBUTING.md](CONTRIBUTING.md) to change a skill.
 
 ---
 
@@ -44,7 +40,7 @@ Everything in `dist/` is built from `skills/` by `scripts/build-packages.py`. Ru
 
 Skills in Gemini are for personal Google accounts today. Work and school accounts get them later, so use a Gem until then.
 
-1. Download the skills you want from [dist/gemini-copilot](dist/gemini-copilot). Open each file, then select **Download raw file**.
+1. Download the skills you want from [dist/one-skill/chatgpt-copilot-gemini](dist/one-skill/chatgpt-copilot-gemini). Open each file, then select **Download raw file**.
 2. Go to gemini.google.com. Open **Settings**, then **Skills**.
 3. Select **Upload** and choose the file.
 4. Open the skill and select **More**, then **Activate**.
@@ -106,10 +102,10 @@ A working skill gives you the meeting outcome and a fallback, a short read on th
 
 ## Trouble
 
-**The upload is rejected.** Claude wants the skill inside its folder: use [dist/claude](dist/claude). Gemini and Copilot want SKILL.md at the top: use [dist/gemini-copilot](dist/gemini-copilot).
+**The upload is rejected.** Claude wants the skill inside its folder: use [dist/one-skill/claude](dist/one-skill/claude). Gemini and Copilot want SKILL.md at the top: use [dist/one-skill/chatgpt-copilot-gemini](dist/one-skill/chatgpt-copilot-gemini).
 
 **The skill installed but never runs.** Ask in plain words, for example "prep me for my meeting with Acme". If it still does not run, type `/` or `@` and pick it by name, where your assistant supports that.
 
-**The answers have no Humantic AI research in them.** Connect Humantic AI with [SETUP.md](SETUP.md).
+**The answers have no Humantic AI research in them.** Connect Humantic AI with [the setup guide](docs/setup-humantic.md).
 
 **A screen does not match these steps.** Tell your Humantic AI contact and we will fix the page.

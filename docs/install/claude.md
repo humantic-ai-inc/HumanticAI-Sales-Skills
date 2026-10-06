@@ -2,7 +2,7 @@
 
 All seven skills install together as one plugin, called **Sales Skills by Humantic AI**. No GitHub account is needed.
 
-[Back to all assistants](INSTALL.md)
+[Back to all assistants](../../INSTALL.md)
 
 ---
 
@@ -60,7 +60,7 @@ An Owner on a Team or Enterprise plan can install the set for everyone.
 
 Use this if you only want one skill, or your plan does not show **Plugins**.
 
-1. Download the skill you want from [dist/claude](dist/claude). Open the file, then select **Download raw file**.
+1. Download the skill you want from [dist/one-skill/claude](../../dist/one-skill/claude). Open the file, then select **Download raw file**.
 2. In Claude, open **Customize**, then **Skills**.
 3. Select **+**, then **Create skill**, then **Upload a skill**. Choose the file.
 4. Turn the skill on.
@@ -79,5 +79,5 @@ Skills need code execution. If you cannot see the option, open **Settings**, the
 
 ## Next
 
-- Connect Humantic AI so the skills can use it: [SETUP.md](SETUP.md).
+- Connect Humantic AI so the skills can use it: [the setup guide](../setup-humantic.md).
 - Check it worked: ask "prep me for my meeting with [a colleague's LinkedIn URL] tomorrow". You should get the meeting outcome, a read on the person, questions to ask and the ask. A generic answer means the skill did not load.

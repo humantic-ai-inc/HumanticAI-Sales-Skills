@@ -2,7 +2,7 @@
 
 What changed, on which account, and what to do about it.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 > **Nothing in this section needs anything but Humantic.** Signals already carry their own suggested next step.
 

@@ -2,7 +2,7 @@
 
 Company-level intelligence, pulled a section at a time.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 > Always check what already exists before starting new research. It is faster, and it keeps everyone on the same picture.
 

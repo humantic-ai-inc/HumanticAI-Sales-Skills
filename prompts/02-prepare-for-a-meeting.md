@@ -2,7 +2,7 @@
 
 One read across everyone in the room, rather than several separate lookups.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 ---
 

@@ -2,7 +2,7 @@
 
 Bringing person-level and account-level intelligence together.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 ---
 

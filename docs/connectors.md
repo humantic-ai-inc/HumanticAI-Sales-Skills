@@ -2,7 +2,7 @@
 
 Humantic tells you about **people and companies**. Your own tools tell you about **this deal**. The prompts in this library are written to use both when both are there.
 
-[Back to index](README.md)
+[Back to the prompt index](../prompts/README.md)
 
 ## How every prompt behaves
 

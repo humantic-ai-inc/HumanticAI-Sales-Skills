@@ -2,7 +2,7 @@
 
 Messages matched to the person receiving them, not to a template.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 ---
 

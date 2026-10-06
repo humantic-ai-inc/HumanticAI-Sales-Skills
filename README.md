@@ -1,16 +1,12 @@
-# Sales Skills
+# Sales Skills by Humantic AI
 
-Prompts for sellers using Humantic AI through an AI assistant. Built for **Microsoft Copilot**, **Claude** and **ChatGPT**.
+Seven sales skills for Claude, ChatGPT and Microsoft Copilot. You ask in your own words, for example "prep me for my meeting with Acme tomorrow", and the right skill does the work.
 
-Every prompt here is written to be pasted as-is. Swap in the bracketed detail and send. No prompt asks you to know a tool name, a parameter, or what DISC stands for.
+Every skill works on its own. Each one gets much sharper when Humantic AI is connected to your assistant.
 
-Each prompt sits in a grey box. Hover over the box and a **copy button** appears in its top-right corner: click it, paste into your assistant, then replace anything in [square brackets] with the real name or company. The line breaks you see in the box do not matter, paste them as they are.
+## The seven skills
 
-## Skills
-
-Seven installable skills that turn the prompts below into complete workflows. You ask in your own words, for example "prep me for my meeting with Acme tomorrow", and the matching skill takes over.
-
-| Skill | What it does |
+| Skill | What it does for you |
 | :--- | :--- |
 | [buyer-read](skills/buyer-read/) | How one person communicates, what drives them, and how to approach them |
 | [meeting-prep](skills/meeting-prep/) | A one-page brief built around what the meeting has to produce |
@@ -20,18 +16,18 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 | [buying-committee](skills/buying-committee/) | Maps the people who decide and how to move them as a group |
 | [expansion-play](skills/expansion-play/) | What an existing customer should buy next, and when to ask |
 
-### Install them
+## Install
 
-Pick your assistant. Each guide has a copy-paste route and step-by-step instructions.
+All seven install together. Pick your assistant.
 
-| Assistant | Guide | The short version |
+| Assistant | Quickest route | Full guide |
 | :--- | :--- | :--- |
-| **Claude** | [INSTALL-CLAUDE.md](INSTALL-CLAUDE.md) | Paste the prompt below into Claude. All seven install together |
-| **ChatGPT** | [INSTALL-CHATGPT.md](INSTALL-CHATGPT.md) | Your workspace admin imports this repo, or add it in the desktop app. All seven together |
-| **Microsoft Copilot** | [INSTALL-COPILOT.md](INSTALL-COPILOT.md) | Upload [one plugin file](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip) in Cowork, or your admin deploys it. All seven together |
-| **Gemini, or anything else** | [INSTALL.md](INSTALL.md) | Upload one at a time, or paste into a chat |
+| **Claude** | Paste the prompt below into a chat | [Claude guide](docs/install/claude.md) |
+| **ChatGPT** | Your workspace admin imports this repo under **Admin**, **Plugins**, **Import marketplace** | [ChatGPT guide](docs/install/chatgpt.md) |
+| **Microsoft Copilot** | Upload [this one file](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip) in Cowork under **Customize**, **Plugins** | [Copilot guide](docs/install/copilot.md) |
+| **Gemini, or anything else** | Upload one at a time, or paste into a chat | [All assistants](INSTALL.md) |
 
-**Claude**, in one step. Paste this into a chat:
+**Claude, in one step.** Paste this into a chat:
 
 ```text
 Install the Humantic AI sales skills from
@@ -42,11 +38,7 @@ humantic-sales-skills plugin so all seven skills are available to me.
 Then list the seven skill names.
 ```
 
-**ChatGPT workspace admin**, in one step: open **Admin**, **Plugins**, **Add**, **Import marketplace**, and paste the repo URL above.
-
-**Microsoft Copilot Cowork**, in one step: download [humantic-sales-skills-copilot.zip](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip), then in Cowork open **+**, **Customize**, **Plugins**, **Upload plugin**.
-
-**Just want to try them?** Paste this into any assistant that can open links. All seven work for that chat:
+**Just want to try them first?** Paste this into any assistant that can open links. All seven work for that chat:
 
 ```text
 Read
@@ -57,44 +49,36 @@ skill you used each time. List the seven names, then ask me what I am
 working on.
 ```
 
-First time with Humantic AI in your assistant? Connect it first with [SETUP.md](SETUP.md).
+## Connect Humantic AI
 
-## Prompts
+The skills use Humantic AI for the read on each person, the account research and the buying signals. Connect it once with the [setup guide](docs/setup-humantic.md).
 
-**New here? Start with [SETUP.md](SETUP.md)** to connect Humantic to your assistant, then come back to the index below.
+## Prefer single prompts?
 
-## How to use these
+The [prompt library](prompts/README.md) has 55 ready-to-paste prompts, one request each. Use it when you want one quick answer rather than a full workflow.
 
-**One identifier per person.** Give a LinkedIn URL *or* an email, never both in the same request. There is no linking step, so if you want both to work later, ask for each separately.
+## What is where
 
-**Ask for the format you want.** If you want something you can share or print, say so in the prompt rather than relying on the default.
+| Folder | What is in it |
+| :--- | :--- |
+| `skills/` | The seven skills |
+| `prompts/` | The prompt library |
+| `docs/` | Install guides, the Humantic AI setup guide, and reference pages |
+| `dist/` | Ready-made downloads: one plugin file per assistant, and single skills |
+| `packaging/` | The Microsoft Copilot and OpenAI plugin files and icons |
+| `templates/` | The starting point for a new skill |
+| `scripts/` | Checks the skills and builds the downloads |
 
-**Your other tools make these better, and none of them are required.** If your assistant can see your calendar, mail, CRM, meeting notes or files, these prompts use them. If it cannot, it asks you for what would help. If you would rather not share anything, you still get the best read Humantic alone can give. See [CONNECTORS.md](CONNECTORS.md) for what each connector adds and where.
+The Claude plugin lives in `.claude-plugin/` and the OpenAI plugin in `plugin.json` and `.agents/plugins/`. Those stay at the top because Claude, ChatGPT, Codex and GitHub Copilot look for them there.
 
-## Index
+## Two things to know
 
-| Section | Prompts | What it covers |
-| :--- | :--- | :--- |
-| [01 - Know a person](01-know-a-person.md) | 1 to 6 | Build a read on one individual, fix a thin profile, bring a stale one up to date |
-| [02 - Prepare for a meeting](02-prepare-for-a-meeting.md) | 7 to 11 | Walk into the room knowing how each person in it wants to be talked to |
-| [03 - Navigate a buying committee](03-buying-committee.md) | 12 to 17 | Several stakeholders, one deal. Who moves fast, who blocks, who to approach first |
-| [04 - Write outreach](04-write-outreach.md) | 18 to 24 | First emails, replies, follow-ups, and several threads running at once |
-| [05 - Research an account](05-research-an-account.md) | 25 to 31 | Company intelligence, pulled a section at a time rather than as a wall of text |
-| [06 - Buyer-intent signals](06-buyer-signals.md) | 32 to 36 | What changed, on which account, and what to do about it |
-| [07 - Run the deal and hand it over](07-deal-handover.md) | 37 to 41 | Full briefings, account plans, handovers, re-engagement |
-| [08 - For sales managers](08-for-sales-managers.md) | 42 to 46 | Coaching, deal review and team preparation |
-| [09 - Combine Humantic with your other tools](09-connected-tools.md) | 47 to 51 | Calendar, mail, CRM, meeting notes and files, chained with Humantic |
-| [10 - Keep the data honest](10-keep-data-honest.md) | 52 to 55 | Feedback prompts that improve what everyone gets back |
-| [INSTALL.md](INSTALL.md) | - | Pick your assistant, plus Gemini and paste-into-a-chat |
-| [INSTALL-CLAUDE.md](INSTALL-CLAUDE.md) | - | Install the skills in Claude |
-| [INSTALL-CHATGPT.md](INSTALL-CHATGPT.md) | - | Install the skills in ChatGPT and Codex |
-| [INSTALL-COPILOT.md](INSTALL-COPILOT.md) | - | Install the skills in Microsoft Copilot and GitHub Copilot |
-| [SETUP.md](SETUP.md) | - | How to connect Humantic AI to your assistant |
-| [CONNECTORS.md](CONNECTORS.md) | - | What each connected tool adds, and how to supply context by hand |
-| [TOOLS.md](TOOLS.md) | - | Plain-language reference for what sits behind these prompts |
+**A personality read is a guide, not a verdict.** It tells you how to approach someone. It does not tell you whether a deal will close.
 
-## Two things to know before you rely on this
+**Nothing is sent for you.** The skills draft emails and plans. You decide what goes out.
 
-**A personality read is a guide, not a verdict.** It tells you how to approach someone. It does not tell you whether a deal will close, and it belongs alongside what you already know rather than in place of it. This matters most in the buying-committee prompts, where the value is in spotting a pattern worth checking rather than in treating the read as settled.
+---
 
-**Section 09 needs at least one other tool connected.** Those prompts combine Humantic with your calendar, mail, CRM or files, so they depend on what your assistant can reach. Everything in sections 01 to 08 and 10 works with Humantic alone.
+Want to add or change a skill? See [CONTRIBUTING.md](CONTRIBUTING.md). What changed in each version is in [CHANGELOG.md](CHANGELOG.md).
+
+[MIT licence](LICENSE). Copyright Humantic AI.

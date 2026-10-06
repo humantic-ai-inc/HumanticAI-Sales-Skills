@@ -2,7 +2,7 @@
 
 Several stakeholders, different roles, one deal.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 > Treat everything in this section as a starting read rather than a verdict. It is most useful for spotting a pattern worth checking against what you already know about the deal.
 

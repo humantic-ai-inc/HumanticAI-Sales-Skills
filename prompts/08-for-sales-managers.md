@@ -2,7 +2,7 @@
 
 The same intelligence, used to coach rather than to sell.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 ---
 

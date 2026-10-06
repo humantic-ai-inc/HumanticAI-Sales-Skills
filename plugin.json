@@ -26,8 +26,8 @@
           "Who should I prospect this week?"
         ],
         "brandColor": "#FDBC00",
-        "composerIcon": "./assets/icon.png",
-        "logo": "./assets/logo.png"
+        "composerIcon": "./packaging/openai/icon.png",
+        "logo": "./packaging/openai/logo.png"
       }
     }
   }

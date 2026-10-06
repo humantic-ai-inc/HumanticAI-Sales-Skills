@@ -4,8 +4,8 @@
 Run from anywhere:  python3 scripts/build-packages.py
 
 Outputs
-  dist/claude/<skill>.zip            one skill, folder inside (Claude upload)
-  dist/gemini-copilot/<skill>.zip    one skill, SKILL.md at the top (Gemini, Copilot, ChatGPT)
+  dist/one-skill/claude/<skill>.zip                  one skill, folder inside (Claude)
+  dist/one-skill/chatgpt-copilot-gemini/<skill>.zip  one skill, SKILL.md at the top
   dist/all-skills.zip                all seven skill folders in one download
   dist/humantic-sales-skills-copilot.zip   Microsoft Copilot Cowork plugin (all seven)
   dist/humantic-sales-skills-chatgpt.zip   OpenAI plugin for ChatGPT and Codex (all seven)
@@ -36,15 +36,15 @@ def skill_files(d: Path):
 
 
 def main():
-    for sub in ("claude", "gemini-copilot"):
-        (DIST / sub).mkdir(parents=True, exist_ok=True)
+    for sub in ("claude", "chatgpt-copilot-gemini"):
+        (DIST / "one-skill" / sub).mkdir(parents=True, exist_ok=True)
     skills = skill_dirs()
 
     for d in skills:
-        with zipfile.ZipFile(DIST / "claude" / f"{d.name}.zip", "w") as z:
+        with zipfile.ZipFile(DIST / "one-skill" / "claude" / f"{d.name}.zip", "w") as z:
             for f in skill_files(d):
                 add(z, f, f"{d.name}/{f.relative_to(d).as_posix()}")
-        with zipfile.ZipFile(DIST / "gemini-copilot" / f"{d.name}.zip", "w") as z:
+        with zipfile.ZipFile(DIST / "one-skill" / "chatgpt-copilot-gemini" / f"{d.name}.zip", "w") as z:
             for f in skill_files(d):
                 add(z, f, f.relative_to(d).as_posix())
 
@@ -53,7 +53,7 @@ def main():
             for f in skill_files(d):
                 add(z, f, f"{d.name}/{f.relative_to(d).as_posix()}")
 
-    cowork = ROOT / "m365" / "cowork"
+    cowork = ROOT / "packaging" / "microsoft"
     with zipfile.ZipFile(DIST / "humantic-sales-skills-copilot.zip", "w") as z:
         for name in ("manifest.json", "color.png", "outline.png"):
             add(z, cowork / name, name)
@@ -64,7 +64,7 @@ def main():
     with zipfile.ZipFile(DIST / "humantic-sales-skills-chatgpt.zip", "w") as z:
         add(z, ROOT / "plugin.json", "plugin.json")
         for name in ("icon.png", "logo.png"):
-            add(z, ROOT / "assets" / name, f"assets/{name}")
+            add(z, ROOT / "packaging" / "openai" / name, f"packaging/openai/{name}")
         for d in skills:
             for f in skill_files(d):
                 add(z, f, f"skills/{d.name}/{f.relative_to(d).as_posix()}")

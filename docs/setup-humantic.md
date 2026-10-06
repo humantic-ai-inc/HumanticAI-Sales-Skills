@@ -1,6 +1,6 @@
 # Setup: connect Humantic AI to your assistant
 
-**This page connects Humantic AI itself.** To install the seven sales skills, see [INSTALL.md](INSTALL.md). Do this page first, then that one.
+**This page connects Humantic AI itself.** To install the seven sales skills, see [INSTALL.md](../INSTALL.md). Do this page first, then that one.
 
 Connect Humantic AI to your assistant once, then every skill and every prompt in this library works.
 
@@ -92,8 +92,8 @@ An administrator can install and pin the agent for the whole organisation, or fo
 
 **"Nothing comes back and there is no error."** Often a network policy inside your organisation silently blocking the endpoint. Ask IT whether the Humantic MCP domain is allowed through your web filtering.
 
-**"It returns a profile for the wrong person."** Use prompt 52 in [10 - Keep the data honest](10-keep-data-honest.md). Takes seconds, costs nothing, and improves the match for everyone.
+**"It returns a profile for the wrong person."** Use prompt 52 in [10 - Keep the data honest](../prompts/10-keep-data-honest.md). Takes seconds, costs nothing, and improves the match for everyone.
 
-**"The profile came back thin or with no personality read."** There was not enough public information. Use prompt 3 in [01 - Know a person](01-know-a-person.md) to add what you know.
+**"The profile came back thin or with no personality read."** There was not enough public information. Use prompt 3 in [01 - Know a person](../prompts/01-know-a-person.md) to add what you know.
 
 **"A file download was refused."** Some assistants and some corporate networks block file downloads from third-party tools. Ask for the result in the chat window, or as a link, instead of as a file.

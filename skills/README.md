@@ -14,4 +14,4 @@ Every skill works without Humantic connected and gets sharper with it. Each one 
 | [buying-committee](buying-committee/) | Maps the people who decide and works out how to move them as a group |
 | [expansion-play](expansion-play/) | Finds what an existing customer should buy next, after checking the current rollout is working |
 
-New to Humantic in your assistant? Start with [SETUP.md](../SETUP.md).
+New to Humantic in your assistant? Start with [the setup guide](../docs/setup-humantic.md).

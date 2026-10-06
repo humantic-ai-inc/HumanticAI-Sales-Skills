@@ -2,7 +2,7 @@
 
 Build a read on one individual before you speak to them.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 ---
 

@@ -2,7 +2,7 @@
 
 "Copilot" is several different products. Find yours first.
 
-[Back to all assistants](INSTALL.md)
+[Back to all assistants](../../INSTALL.md)
 
 | You use | Best route | You get |
 | :--- | :--- | :--- |
@@ -28,7 +28,7 @@ That installs all seven skills. Cowork uses the right one when what you ask matc
 
 Want it for colleagues too? In step 5 choose **Specific users in your organization**. Sharing with the whole organisation needs your admin to approve it.
 
-**One skill at a time instead:** open **Customize**, then **Skills**. Select the arrow next to **Add**, then **Upload skill**, and choose a file from [dist/gemini-copilot](dist/gemini-copilot).
+**One skill at a time instead:** open **Customize**, then **Skills**. Select the arrow next to **Add**, then **Upload skill**, and choose a file from [dist/one-skill/chatgpt-copilot-gemini](../../dist/one-skill/chatgpt-copilot-gemini).
 
 Custom plugins do not work in Cowork on mobile yet.
 
@@ -57,7 +57,7 @@ Skills in Agent Builder are in preview. They are only available to organisations
 1. In Copilot Chat, open **Agents & Skills**, then **New agent**.
 2. Name it, for example "Sales Skills".
 3. On the **Configure** tab, open **Skills** and select **Add**.
-4. Upload one file from [dist/gemini-copilot](dist/gemini-copilot). Do not upload the SKILL.md file on its own.
+4. Upload one file from [dist/one-skill/chatgpt-copilot-gemini](../../dist/one-skill/chatgpt-copilot-gemini). Do not upload the SKILL.md file on its own.
 5. Repeat for each of the seven skills.
 6. Test it on the **Try it** tab, then select **Create**.
 

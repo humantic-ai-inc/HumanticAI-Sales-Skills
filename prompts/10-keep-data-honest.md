@@ -2,7 +2,7 @@
 
 Feedback prompts. All free, and they improve what everyone gets back.
 
-[Back to index](README.md)
+[Back to the prompt index](README.md)
 
 > These take seconds. Most people never use them, which is why bad matches persist instead of getting fixed.
 
