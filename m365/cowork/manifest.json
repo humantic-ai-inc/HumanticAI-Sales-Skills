@@ -1,0 +1,34 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/teams/v1.28/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.28",
+  "version": "0.1.0",
+  "id": "36c37bbe-5151-5b29-a03b-b120e19328db",
+  "developer": {
+    "name": "Humantic AI",
+    "websiteUrl": "https://humantic.ai",
+    "privacyUrl": "https://humantic.ai/privacy",
+    "termsOfUseUrl": "https://humantic.ai/tos"
+  },
+  "name": {
+    "short": "Sales Skills",
+    "full": "Sales Skills by Humantic AI"
+  },
+  "description": {
+    "short": "Seven sales skills: meeting prep, buyer read, prospecting and more",
+    "full": "Seven sales skills from Humantic AI: buyer read, meeting prep, pursuit plan, prospecting, sales email, buying committee and expansion play. Each one works on its own and gets sharper when the Humantic AI connector is set up."
+  },
+  "icons": {
+    "color": "color.png",
+    "outline": "outline.png"
+  },
+  "accentColor": "#FDBC00",
+  "agentSkills": [
+    { "folder": "./skills/buyer-read" },
+    { "folder": "./skills/meeting-prep" },
+    { "folder": "./skills/pursuit-plan" },
+    { "folder": "./skills/prospecting" },
+    { "folder": "./skills/sales-email" },
+    { "folder": "./skills/buying-committee" },
+    { "folder": "./skills/expansion-play" }
+  ]
+}

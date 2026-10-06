@@ -22,9 +22,16 @@ Seven installable skills that turn the prompts below into complete workflows. Yo
 
 ### Install them
 
-**Full steps for every assistant are in [INSTALL.md](INSTALL.md).** The short version:
+Pick your assistant. Each guide has a copy-paste route and step-by-step instructions.
 
-**Claude**, all seven at once. Paste this into a chat:
+| Assistant | Guide | The short version |
+| :--- | :--- | :--- |
+| **Claude** | [INSTALL-CLAUDE.md](INSTALL-CLAUDE.md) | Paste the prompt below into Claude. All seven install together |
+| **ChatGPT** | [INSTALL-CHATGPT.md](INSTALL-CHATGPT.md) | Your workspace admin imports this repo, or add it in the desktop app. All seven together |
+| **Microsoft Copilot** | [INSTALL-COPILOT.md](INSTALL-COPILOT.md) | Upload [one plugin file](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip) in Cowork, or your admin deploys it. All seven together |
+| **Gemini, or anything else** | [INSTALL.md](INSTALL.md) | Upload one at a time, or paste into a chat |
+
+**Claude**, in one step. Paste this into a chat:
 
 ```text
 Install the Humantic AI sales skills from
@@ -35,28 +42,19 @@ humantic-sales-skills plugin so all seven skills are available to me.
 Then list the seven skill names.
 ```
 
-Prefer the menu? Open **Customize**, **Plugins**, **Add**, **Add marketplace**, and enter `humantic-ai-inc/HumanticAI-Sales-Skills`.
+**ChatGPT workspace admin**, in one step: open **Admin**, **Plugins**, **Add**, **Import marketplace**, and paste the repo URL above.
 
-That one step installs all seven. **ChatGPT**, **Gemini** and **Microsoft Copilot Cowork** take skills one at a time: download [`dist/all-skills.zip`](dist/all-skills.zip), or a single skill from `dist/`, and upload in that assistant's skills screen. [INSTALL.md](INSTALL.md) has the exact menus.
+**Microsoft Copilot Cowork**, in one step: download [humantic-sales-skills-copilot.zip](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip), then in Cowork open **+**, **Customize**, **Plugins**, **Upload plugin**.
 
-**Just want to try them?** Paste this into Claude or ChatGPT, with web access on, and all seven work for that conversation:
-
-```text
-Load the Humantic AI sales skills and use them for the rest of this
-conversation. Read all seven files listed at
-https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/INSTALL.md
-under "Use all seven right now", follow the matching skill whenever
-what I ask matches one, and tell me which one you used. List the seven
-names, then ask me what I am working on.
-```
-
-**Want your assistant to install them for you?** Paste this instead:
+**Just want to try them?** Paste this into any assistant that can open links. All seven work for that chat:
 
 ```text
 Read
 https://raw.githubusercontent.com/humantic-ai-inc/HumanticAI-Sales-Skills/main/INSTALL.md
-and walk me through installing all seven Humantic AI sales skills in
-this assistant. One step at a time, and wait for me to say done.
+then load the seven skills listed under "Any assistant: paste into a
+chat" and use them for the rest of this conversation. Tell me which
+skill you used each time. List the seven names, then ask me what I am
+working on.
 ```
 
 First time with Humantic AI in your assistant? Connect it first with [SETUP.md](SETUP.md).
@@ -87,7 +85,10 @@ First time with Humantic AI in your assistant? Connect it first with [SETUP.md](
 | [08 - For sales managers](08-for-sales-managers.md) | 42 to 46 | Coaching, deal review and team preparation |
 | [09 - Combine Humantic with your other tools](09-connected-tools.md) | 47 to 51 | Calendar, mail, CRM, meeting notes and files, chained with Humantic |
 | [10 - Keep the data honest](10-keep-data-honest.md) | 52 to 55 | Feedback prompts that improve what everyone gets back |
-| [INSTALL.md](INSTALL.md) | - | How to install the skills in Claude, ChatGPT, Gemini and Microsoft Copilot |
+| [INSTALL.md](INSTALL.md) | - | Pick your assistant, plus Gemini and paste-into-a-chat |
+| [INSTALL-CLAUDE.md](INSTALL-CLAUDE.md) | - | Install the skills in Claude |
+| [INSTALL-CHATGPT.md](INSTALL-CHATGPT.md) | - | Install the skills in ChatGPT and Codex |
+| [INSTALL-COPILOT.md](INSTALL-COPILOT.md) | - | Install the skills in Microsoft Copilot and GitHub Copilot |
 | [SETUP.md](SETUP.md) | - | How to connect Humantic AI to your assistant |
 | [CONNECTORS.md](CONNECTORS.md) | - | What each connected tool adds, and how to supply context by hand |
 | [TOOLS.md](TOOLS.md) | - | Plain-language reference for what sits behind these prompts |

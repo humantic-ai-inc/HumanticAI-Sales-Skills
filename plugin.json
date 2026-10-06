@@ -1,0 +1,34 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "humantic-sales-skills",
+  "version": "0.1.0",
+  "description": "Seven sales skills from Humantic AI: buyer read, meeting prep, pursuit plan, prospecting, sales email, buying committee and expansion play.",
+  "author": { "name": "Humantic AI", "url": "https://humantic.ai" },
+  "homepage": "https://humantic.ai",
+  "repository": "https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills",
+  "license": "MIT",
+  "keywords": ["sales", "humantic", "buyer intelligence", "meeting prep", "prospecting"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Sales Skills",
+        "shortDescription": "Buyer intel for every deal",
+        "longDescription": "Seven sales skills from Humantic AI. Buyer read, meeting prep, pursuit plan, prospecting, sales email, buying committee and expansion play. Each one works on its own and gets sharper with the Humantic AI connector.",
+        "developerName": "Humantic AI",
+        "category": "Productivity",
+        "capabilities": ["Read"],
+        "websiteURL": "https://humantic.ai",
+        "privacyPolicyURL": "https://humantic.ai/privacy",
+        "termsOfServiceURL": "https://humantic.ai/tos",
+        "defaultPrompt": [
+          "Prep me for my meeting with Acme tomorrow.",
+          "Who is this person and how should I approach them?",
+          "Who should I prospect this week?"
+        ],
+        "brandColor": "#FDBC00",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/logo.png"
+      }
+    }
+  }
+}
