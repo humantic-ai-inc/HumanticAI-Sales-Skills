@@ -46,9 +46,20 @@ Skills in Gemini are for personal Google accounts today. Work and school account
 4. Open the skill and select **More**, then **Activate**.
 5. In a chat, type `/` and pick the skill, or just describe what you need.
 
-**On a work or school account:** open **Gems** in the sidebar and select **New Gem**. Name it after the skill. Paste the full text of the skill from the [skills](skills) folder into **Instructions**, then save.
+Gemini cannot read files from GitHub, so step 1 is needed.
 
-Gemini cannot read files from GitHub, so you need to download them first.
+### On a work or school account: make a Gem
+
+1. Open the skill you want in the [skills](skills) folder, for example `meeting-prep`, then open its `SKILL.md`.
+2. Select the **Copy raw file** button at the top right of the file.
+3. Go to gemini.google.com and open **Gems** in the sidebar.
+4. Select **New Gem**.
+5. In **Name**, type the skill's name, for example `Meeting prep`.
+6. Click into **Instructions** and paste.
+7. Select **Save**.
+8. To use it, open **Gems** and select your Gem. Then type what you need.
+
+Repeat for each skill you want.
 
 ---
 
@@ -56,7 +67,13 @@ Gemini cannot read files from GitHub, so you need to download them first.
 
 Good for trying the skills. It lasts for that chat only.
 
-**If your assistant can open links** (Claude with web search on, or ChatGPT with web search on):
+### If your assistant can open links (Claude or ChatGPT)
+
+1. Start a new chat.
+2. Turn on web search. In Claude, select **+** at the bottom left of the message box, then switch on **Web search**. In ChatGPT, select **+**, then **Web search**.
+3. Copy the block below with the copy button at its top right.
+4. Paste it into the chat and send it.
+5. The assistant lists the seven skill names. Now ask for what you need.
 
 ```text
 Load the Humantic AI sales skills and use them for the rest of this
@@ -75,7 +92,13 @@ tell me in one line which one you used. List the seven names, then ask
 me what I am working on.
 ```
 
-**If it cannot open links** (Gemini, Copilot Chat), paste the skill itself:
+### If it cannot open links (Gemini, Copilot Chat)
+
+1. Open the skill you want in the [skills](skills) folder, then open its `SKILL.md`.
+2. Select the **Copy raw file** button at the top right of the file.
+3. Start a new chat in your assistant.
+4. Type the two lines in the block below, then paste the skill underneath them.
+5. Send it. The assistant confirms in one line. Now ask for what you need.
 
 ```text
 Below is a skill definition. Follow it for the rest of this conversation.
@@ -89,22 +112,36 @@ and paste it here]
 
 ## Check it worked
 
-Ask this, using a real colleague who is happy to be the test:
+1. Pick a colleague who is happy to be the test, and copy their LinkedIn URL.
+2. Start a new chat in your assistant.
+3. Copy the block below, paste it in, and swap in their URL and company.
+4. Send it.
 
 ```text
 Prep me for my meeting with [their LinkedIn URL] at [their company]
 tomorrow. The goal is to book a second meeting with their manager.
 ```
 
-A working skill gives you the meeting outcome and a fallback, a short read on the person, what changed at their company, two to four questions, the objection to expect, and the ask. A generic answer means the skill did not load.
+**It worked if** the answer has all of these: the outcome the meeting has to produce and a fallback, a short read on the person, what changed at their company, two to four questions, the objection to expect, and the ask.
+
+**It did not work if** you get a general answer with none of that structure. Go back to the install guide for your assistant and check each step.
 
 ---
 
 ## Trouble
 
-**The upload is rejected.** Claude wants the skill inside its folder: use [dist/one-skill/claude](dist/one-skill/claude). Gemini and Copilot want SKILL.md at the top: use [dist/one-skill/chatgpt-copilot-gemini](dist/one-skill/chatgpt-copilot-gemini).
+**The upload is rejected.**
 
-**The skill installed but never runs.** Ask in plain words, for example "prep me for my meeting with Acme". If it still does not run, type `/` or `@` and pick it by name, where your assistant supports that.
+1. Check which folder you downloaded from.
+2. For Claude, download again from [dist/one-skill/claude](dist/one-skill/claude).
+3. For ChatGPT, Copilot or Gemini, download again from [dist/one-skill/chatgpt-copilot-gemini](dist/one-skill/chatgpt-copilot-gemini).
+4. Upload the new file.
+
+**The skill installed but never runs.**
+
+1. Start a new chat.
+2. Ask in plain words, for example `prep me for my meeting with Acme tomorrow`.
+3. If it still does not run, type `/` in Claude, Gemini or Codex, or `@` in ChatGPT, and pick the skill by name.
 
 **The answers have no Humantic AI research in them.** Connect Humantic AI with [the setup guide](docs/setup-humantic.md).
 

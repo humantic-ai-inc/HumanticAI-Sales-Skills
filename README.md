@@ -27,7 +27,11 @@ All seven install together. Pick your assistant.
 | **Microsoft Copilot** | Upload [this one file](https://github.com/humantic-ai-inc/HumanticAI-Sales-Skills/raw/main/dist/humantic-sales-skills-copilot.zip) in Cowork under **Customize**, **Plugins** | [Copilot guide](docs/install/copilot.md) |
 | **Gemini, or anything else** | Upload one at a time, or paste into a chat | [All assistants](INSTALL.md) |
 
-**Claude, in one step.** Paste this into a chat:
+**Claude, in one step:**
+
+1. Open Claude and start a new chat.
+2. Copy the block below with the copy button at its top right.
+3. Paste it into the chat and send it. Claude installs all seven and lists them.
 
 ```text
 Install the Humantic AI sales skills from
@@ -38,7 +42,11 @@ humantic-sales-skills plugin so all seven skills are available to me.
 Then list the seven skill names.
 ```
 
-**Just want to try them first?** Paste this into any assistant that can open links. All seven work for that chat:
+**Just want to try them first?** All seven work for one chat:
+
+1. Start a new chat in Claude or ChatGPT, with web search switched on.
+2. Copy the block below, paste it in, and send it.
+3. The assistant lists the seven skills. Ask for what you need.
 
 ```text
 Read
@@ -51,7 +59,7 @@ working on.
 
 ## Connect Humantic AI
 
-The skills use Humantic AI for the read on each person, the account research and the buying signals. Connect it once with the [setup guide](docs/setup-humantic.md).
+The skills use Humantic AI for the read on each person, the account research and the buying signals. Connect it once with the step-by-step [setup guide](docs/setup-humantic.md).
 
 ## Prefer single prompts?
 

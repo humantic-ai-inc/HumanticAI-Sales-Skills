@@ -8,7 +8,9 @@ All seven skills install together as one plugin, called **Sales Skills by Humant
 
 ## Fastest: ask Claude to do it
 
-Paste this into a Claude chat:
+1. Open Claude and start a new chat.
+2. Copy the block below with the copy button at its top right.
+3. Paste it into the chat and send it.
 
 ```text
 Install the Humantic AI sales skills from
@@ -22,7 +24,8 @@ If you cannot install it yourself here, say so and walk me through
 doing it, one step at a time.
 ```
 
-Claude reads the repo and installs all seven. If your version of Claude cannot install things for you, it walks you through the menu steps below.
+4. Claude reads the repo and installs the plugin. When it is done, it lists the seven skill names.
+5. If Claude says it cannot install it for you, follow the menu steps below instead.
 
 ---
 
@@ -63,21 +66,43 @@ Use this if you only want one skill, or your plan does not show **Plugins**.
 1. Download the skill you want from [dist/one-skill/claude](../../dist/one-skill/claude). Open the file, then select **Download raw file**.
 2. In Claude, open **Customize**, then **Skills**.
 3. Select **+**, then **Create skill**, then **Upload a skill**. Choose the file.
-4. Turn the skill on.
+4. Find the skill under **Your skills** and select **Turn on**.
 
-Skills need code execution. If you cannot see the option, open **Settings**, then **Capabilities**, and turn on **Code execution and file creation**.
+**If you cannot see Skills in step 2:**
+
+1. Open **Settings**, then **Capabilities**.
+2. Switch on **Code execution and file creation**.
+3. Go back to step 2 above.
+
+On Team and Enterprise, an Owner switches this on for everyone under **Organization settings**, **Capabilities**.
 
 ---
 
 ## Staying up to date
 
-- **Installed as a plugin:** you get the latest version when you add or refresh the marketplace. You never need a GitHub login.
-- **Uploaded as a file:** that copy stays as it is. To update it, download the file again and upload it again.
-- The "Sync from GitHub" option in organisation settings is a different feature, for private company repos. You do not need it.
+**If you installed the plugin:**
+
+1. Open **Customize**, then **Plugins**.
+2. Find **Sales Skills** and remove it.
+3. Add it again with the steps in "From the menu" above. You get the latest version.
+
+In Claude Code, run `/plugin`, open **Marketplaces**, select **humantic-ai**, then **Update**.
+
+**If you uploaded single skill files:**
+
+1. Download the skill again from [dist/one-skill/claude](../../dist/one-skill/claude).
+2. Open **Customize**, then **Skills**, and remove the old copy.
+3. Upload the new file, as in "One skill at a time" above.
+
+You never need a GitHub login. The **Sync from GitHub** option in organisation settings is for private company repos, so skip it.
 
 ---
 
-## Next
+## Check it worked
 
-- Connect Humantic AI so the skills can use it: [the setup guide](../setup-humantic.md).
-- Check it worked: ask "prep me for my meeting with [a colleague's LinkedIn URL] tomorrow". You should get the meeting outcome, a read on the person, questions to ask and the ask. A generic answer means the skill did not load.
+1. Connect Humantic AI first, if you have not: follow [the setup guide](../setup-humantic.md).
+2. Start a new chat.
+3. Type: `Prep me for my meeting with [a colleague's LinkedIn URL] tomorrow.`
+4. Send it.
+
+**It worked if** you get the meeting outcome, a read on the person, questions to ask and the ask. **It did not work if** you get a general answer with none of that. Go back over the steps above.
